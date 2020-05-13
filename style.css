@@ -20,7 +20,7 @@ body .wrapper h1 {
     font-size: 1.5em;
 }
 
-body .wrapper .speechbubble {
+body .wrapper .speech-bubble {
     background-color: #26272b;
     color: #9fa2a7;
     font-size: 1.2em;
@@ -29,11 +29,11 @@ body .wrapper .speechbubble {
     cursor: default;
 }
 
-body .wrapper .speechbubble:nth-child(2n) {
+body .wrapper .speech-bubble:nth-child(2n) {
     border-left: 5px solid;
 }
 
-body .wrapper .speechbubble:nth-child(2n):after {
+body .wrapper .speech-bubble:nth-child(2n):after {
     content: '';
     margin-top: -30px;
     padding-top: 0;
@@ -47,11 +47,11 @@ body .wrapper .speechbubble:nth-child(2n):after {
     width: 0;
 }
 
-body .wrapper .speechbubble:nth-child(2n+1) {
+body .wrapper .speech-bubble:nth-child(2n+1) {
     border-right: 5px solid;
 }
 
-body .wrapper .speechbubble:nth-child(2n+1):after {
+body .wrapper .speech-bubble:nth-child(2n+1):after {
     content: '';
     margin-top: -30px;
     padding-top: 0;
@@ -65,23 +65,23 @@ body .wrapper .speechbubble:nth-child(2n+1):after {
     width: 0;
 }
 
-body .wrapper .speechbubble:nth-child(4n+1) {
+body .wrapper .speech-bubble:nth-child(4n+1) {
     border-color: #56b273;
 }
 
-body .wrapper .speechbubble:nth-child(4n+2) {
+body .wrapper .speech-bubble:nth-child(4n+2) {
     border-color: #01ad9b;
 }
 
-body .wrapper .speechbubble:nth-child(4n+3) {
+body .wrapper .speech-bubble:nth-child(4n+3) {
     border-color: #b388dd;
 }
 
-body .wrapper .speechbubble:nth-child(4n+4) {
+body .wrapper .speech-bubble:nth-child(4n+4) {
     border-color: #ff8750;
 }
 
-body .wrapper .speechbubble p:before {
+body .wrapper .speech-bubble p:before {
     content: "“";
     font-family: Georgia;
     font-size: 35px;
